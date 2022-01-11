@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "lunchtime:fried_egg"
+		},
+		{
+			"item": "minecraft:bread"
+		},
+		{
+			"item": "minecraft:beetroot"
+		}
+	],
+	"result": {
+		"item": "lunchtime:egg_sandwich",
+		"count": 1
+	}
+}

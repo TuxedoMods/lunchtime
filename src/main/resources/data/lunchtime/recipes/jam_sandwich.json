@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "lunchtime:jam"
+		},
+		{
+			"item": "minecraft:bread"
+		},
+		{
+			"item": "minecraft:beetroot"
+		}
+	],
+	"result": {
+		"item": "lunchtime:jam_sandwich",
+		"count": 1
+	}
+}

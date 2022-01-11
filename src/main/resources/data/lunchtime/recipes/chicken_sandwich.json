@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:cooked_chicken"
+		},
+		{
+			"item": "minecraft:bread"
+		},
+		{
+			"item": "minecraft:beetroot"
+		}
+	],
+	"result": {
+		"item": "lunchtime:chicken_sandwich",
+		"count": 1
+	}
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "lunchtime",
+  "version": "0.0.1",
+
+  "name": "Lunchtime",
+  "description": "Adds more food items",
+  "authors": [
+    "Xpopy",
+    "Basil"
+  ],
+  "contact": {
+    "homepage": "https://github.com/TuxedoMods/lunchtime",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/lunchtime/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tuxedo.lunchtime.Lunchtime"
+    ]
+  },
+  "mixins": [
+    "lunchtime.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
