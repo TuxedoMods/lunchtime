@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:potato"
+		},
+		{
+			"item": "minecraft:potato"
+		},
+		{
+			"item": "minecraft:potato"
+		},
+		{
+			"item": "minecraft:bowl"
+		}
+	],
+	"result": {
+		"item": "lunchtime:potato_soup",
+		"count": 1
+	}
+}
