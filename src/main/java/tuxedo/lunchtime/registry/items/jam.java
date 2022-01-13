@@ -13,16 +13,16 @@ import tuxedo.lunchtime.Lunchtime;
 public class jam {
 	public static final Item SWEET_BERRY_JAM = new Item(new Item.Settings().group(ItemGroup.FOOD)
 			.food(new FoodComponent.Builder()
-					.hunger(1)
-					.saturationModifier(6f)
+					.hunger(6)
+					.saturationModifier(0.1f)
 					.statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 20 * 5, 2), 1f)
 					.build())
 			.recipeRemainder(Items.GLASS_BOTTLE));
 
 	public static final Item GLOW_BERRY_JAM = new Item(new Item.Settings().group(ItemGroup.FOOD)
 			.food(new FoodComponent.Builder()
-					.hunger(1)
-					.saturationModifier(6f)
+					.hunger(6)
+					.saturationModifier(0.1f)
 					.statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 20 * 5), 1f)
 					.build())
 			.recipeRemainder(Items.GLASS_BOTTLE));
